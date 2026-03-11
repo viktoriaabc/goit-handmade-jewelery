@@ -1,7 +1,7 @@
 .hero {
   background-image:
     radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(/images/hero-mob.jpg);
+    url(/images/hero/hero-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -9,7 +9,7 @@
   @media screen and (min-resolution: 192dpi) {
     background-image:
       radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(/images/hero-mob@2x.jpg);
+      url(/images/hero/hero-mob@2x.jpg);
   }
 }
 
