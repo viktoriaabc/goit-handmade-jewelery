@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-handmade-jewelery/",
+    "build": "vite build --base=/NGD-team-project/",
     "preview": "vite preview"
   },
   "devDependencies": {
