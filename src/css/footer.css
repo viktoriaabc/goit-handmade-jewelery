@@ -83,6 +83,10 @@
     color: #000000;
     padding: 16px 0;
 }
+.footer-nav-link:hover {
+    text-decoration: underline;
+    
+}
 
 .footer-nav-link:active {
     color: #8668c7;
