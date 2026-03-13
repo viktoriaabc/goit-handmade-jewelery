@@ -1,0 +1,65 @@
+<section class="contacts-section">
+  <div class="container contacts-container">
+    <div class="contacts-text-wrapper">
+      <p class="contacts-subtitle">Connect</p>
+      <h2 class="contacts-title">Order your unique jewelry</h2>
+      <p class="contacts-text">We'd love to hear more details from you!</p>
+    </div>
+    <div class="contacts-wrapper">
+      <address class="contacts">
+        <ul class="contacts-list">
+          <li class="contacts-list-item">
+            <svg class="contacts-list-icon" width="32" height="32">
+              <use href="/images/icons.svg#envelope"></use>
+            </svg>
+            <div class="contacts-item-text-thumb">
+              <p class="contacts-list-name">Email</p>
+              <a class="contacts-list-link" href="mailto:info@handmadejewelry.com">
+                info@handmadejewelry.com
+              </a>
+            </div>
+          </li>
+          <li class="contacts-list-item">
+            <svg class="contacts-list-icon" width="32" height="32">
+              <use href="/images/icons.svg#phone"></use>
+            </svg>
+            <div class="contacts-item-text-thumb">
+              <p class="contacts-list-name">Phone</p>
+              <a class="contacts-list-link" href="tel:+15550000000">
+                +1 (555) 000-0000
+              </a>
+            </div>
+          </li>
+          <li class="contacts-list-item">
+            <svg class="contacts-list-icon" width="32" height="32">
+              <use href="/images/icons.svg#map"></use>
+            </svg>
+            <div class="contacts-item-text-thumb">
+              <p class="contacts-list-name">Office</p>
+              <a class="contacts-list-link" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
+                76-8 Oakington Manor Dr, London, UK
+              </a>
+            </div>
+          </li>
+        </ul>
+      </address>
+      <form class="contacts-order-form" name="order-form" method="post" autocomplete="on">
+        <label class="order-form-label">
+          <span class="order-form-label-text">Name<sup>*</sup></span>
+          <input class="order-form-input" type="text" name="user-name" required="" pattern="^[a-zA-Z\s\.]{5,28}$" placeholder="Tony" autofocus="">
+          <span class="input-error">Error Text</span>
+        </label>
+        <label class="order-form-label">
+          <span class="order-form-label-text">Phone<sup>*</sup></span>
+          <input class="order-form-input" type="tel" name="user-phone" required="" pattern="^+[0-9\s]{14}$" placeholder="+1 234 123 23">
+          <span class="input-error">Error Text</span>
+        </label>
+        <label class="order-form-label">
+          <span class="order-form-label-text">Describe what you want</span>
+          <textarea class="order-form-comment" name="user-message" maxlength="500" placeholder="Type your message..." required=""></textarea>
+        </label>
+        <button class="contacts-send-btn" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</section>
