@@ -1,0 +1,48 @@
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.testimonials-thumb {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.section-title {
+    text-align: center;
+    font-family: "Sora", sans-serif;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+}
+.section-text {
+    text-align: center;
+}
+.testimonials-feedback-text {
+    font-size: 18px;
+}
+.testimonials-feedback-name {
+    font-weight: 600;
+}
+.testimonials-feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    width: 100%;
+}
+.testimonials-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials-image {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 335px;
+    height: 260px;
+    object-fit: cover;
+    object-position: center top;
+}
