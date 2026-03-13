@@ -34,8 +34,15 @@
   background-color: #fff;
   border: none;
 }
+
+.burger-content{
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
 .burger-nav-list {
-  margin-bottom: 64px;
+
   display: flex;
   flex-direction: column;
   row-gap: 24px;

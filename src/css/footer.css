@@ -1,136 +1,131 @@
 .footer {
-    padding-top: 80px;
-    padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  /* DESKTOP */
+  @media screen and (min-width: 1440px) {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 24px;
-
-    /* DESKTOP */
-    @media screen and (min-width: 1440px) {
-        display: flex;
-        flex-direction: row;
-        gap: 841px;
-        align-items: flex-start;
-    }
+    flex-direction: row;
+    gap: 841px;
+    align-items: flex-start;
+  }
+}
+.footer-content {
+  display: flex;
+  gap: 64px;
+  flex-direction: column;
 }
 .footer-logo-soc-container {
-display: flex;
-flex-direction: column;
-    align-items: center;
-    margin-bottom: 64px;
-    gap: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
 }
 .footer-logo-link {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    /* margin-bottom: 24px; */
-    align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* margin-bottom: 24px; */
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
+  @media screen and (min-width: 768px) {
+    padding: 21px 0 25px;
+  }
 
-    @media screen and (min-width: 768px) {
-        padding: 21px 0 25px;
-    }
-
-    /* DESKTOP */
-    @media screen and (min-width: 1440px) {
-        padding: 0;
-        display: block
-    }
+  /* DESKTOP */
+  @media screen and (min-width: 1440px) {
+    padding: 0;
+    display: block;
+  }
 }
 
 .footer-logo-icon {
+  /* TABLET */
+  @media screen and (min-width: 768px) {
+    width: 318px;
+    height: 100px;
+  }
 
-    /* TABLET */
-    @media screen and (min-width: 768px) {
-        width: 318px;
-        height: 100px;
-    }
-
-    /* DESKTOP */
-    @media screen and (min-width: 1440px) {
-        width: 79px;
-        height: 25px;
-    }
+  /* DESKTOP */
+  @media screen and (min-width: 1440px) {
+    width: 79px;
+    height: 25px;
+  }
 }
 
 .footer-svg {
-    @media screen and (min-width: 1440px) {
-        width: 24px;
-            height: 24px;
-    }
-
+  @media screen and (min-width: 1440px) {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .footer-soc-list {
-    display: flex;
-    gap: 12px;
+  display: flex;
+  gap: 12px;
 }
 .footer-soc-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 6px;
-    min-width: 44px;
-    min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  min-width: 44px;
+  min-height: 44px;
 
-    /* DESKTOP */
-    @media screen and (min-width: 1440px) {
-        padding: 0;
-        min-width: 24px;
-        min-height: 24px;
-
-    }
+  /* DESKTOP */
+  @media screen and (min-width: 1440px) {
+    padding: 0;
+    min-width: 24px;
+    min-height: 24px;
+  }
 }
 .footer-nav-list {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    row-gap: 32px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  row-gap: 32px;
 
-
-    /* DESKTOP */
-    @media screen and (min-width: 1440px) {
-        justify-content: space-between;
-        align-items: flex-start;
-    }
+  /* DESKTOP */
+  @media screen and (min-width: 1440px) {
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }
 .footer-nav-link {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #000000;
-    padding: 16px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000000;
+  padding: 16px 0;
 }
 .footer-nav-link:hover {
-    text-decoration: underline;
-    
+  text-decoration: underline;
 }
 
 .footer-nav-link:active {
-    color: #8668c7;
+  color: #8668c7;
 }
 
-
 .copypaste-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #000000;
-    text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000000;
+  text-align: center;
 }
 
 .copypaste-container {
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-    width: 100%;
-    padding-top: 32px;
-    display: flex;
-    justify-content: center;
-
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding-top: 32px;
+  display: flex;
+  justify-content: center;
 }
