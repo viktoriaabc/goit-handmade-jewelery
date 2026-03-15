@@ -1,4 +1,4 @@
-<section class="contacts-section">
+<section class="contacts-section" id="contacts">
   <div class="container contacts-container">
     <div class="contacts-text-wrapper">
       <p class="contacts-subtitle">Connect</p>
@@ -14,7 +14,10 @@
             </svg>
             <div class="contacts-item-text-thumb">
               <p class="contacts-list-name">Email</p>
-              <a class="contacts-list-link" href="mailto:info@handmadejewelry.com">
+              <a
+                class="contacts-list-link"
+                href="mailto:info@handmadejewelry.com"
+              >
                 info@handmadejewelry.com
               </a>
             </div>
@@ -36,27 +39,58 @@
             </svg>
             <div class="contacts-item-text-thumb">
               <p class="contacts-list-name">Office</p>
-              <a class="contacts-list-link" href="https://maps.google.com" rel="noopener noreferrer" target="_blank">
+              <a
+                class="contacts-list-link"
+                href="https://maps.google.com"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 76-8 Oakington Manor Dr, London, UK
               </a>
             </div>
           </li>
         </ul>
       </address>
-      <form class="contacts-order-form" name="order-form" method="post" autocomplete="on">
+      <form
+        class="contacts-order-form"
+        name="order-form"
+        method="post"
+        autocomplete="on"
+      >
         <label class="order-form-label">
           <span class="order-form-label-text">Name<sup>*</sup></span>
-          <input class="order-form-input" type="text" name="user-name" required="" pattern="^[a-zA-Z\s\.]{5,28}$" placeholder="Tony" autofocus="">
+          <input
+            class="order-form-input"
+            type="text"
+            name="user-name"
+            required=""
+            pattern="^[a-zA-Z\s\.]{5,28}$"
+            placeholder="Tony"
+            autofocus=""
+          />
           <span class="input-error">Error Text</span>
         </label>
         <label class="order-form-label">
           <span class="order-form-label-text">Phone<sup>*</sup></span>
-          <input class="order-form-input" type="tel" name="user-phone" required="" pattern="^\+[0-9\s]{14}$" placeholder="+1 234 123 2324">
+          <input
+            class="order-form-input"
+            type="tel"
+            name="user-phone"
+            required=""
+            pattern="^+[0-9\s]{14}$"
+            placeholder="+1 234 123 23"
+          />
           <span class="input-error">Error Text</span>
         </label>
         <label class="order-form-label">
           <span class="order-form-label-text">Describe what you want</span>
-          <textarea class="order-form-comment" name="user-message" maxlength="500" placeholder="Type your message..." required=""></textarea>
+          <textarea
+            class="order-form-comment"
+            name="user-message"
+            maxlength="500"
+            placeholder="Type your message..."
+            required=""
+          ></textarea>
         </label>
         <button class="contacts-send-btn" type="submit">Submit</button>
       </form>

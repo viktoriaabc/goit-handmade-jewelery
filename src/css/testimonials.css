@@ -7,11 +7,13 @@
         gap: 80px;
     }
 }
+
 .testimonials-thumb {
-    display: flex;
-    flex-direction: column;
-    row-gap: 24px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
 }
+
 .section-title {
     text-align: center;
     font-family: "Sora", sans-serif;
@@ -23,11 +25,13 @@
         font-size: 48px;
     }
 }
+
 .section-text {
-    text-align: center;
+  text-align: center;
 }
+
 .testimonials-feedback-text {
-    font-size: 18px;
+  font-size: 18px;
 }
 .testimonials-text-icons {
     @media screen and (min-width: 768px) {
@@ -37,8 +41,9 @@
     }
 }
 .testimonials-feedback-name {
-    font-weight: 600;
+  font-weight: 600;
 }
+
 .testimonials-feedback {
     display: flex;
     flex-direction: column;
@@ -72,6 +77,7 @@
         gap: 32px;
     }
 }
+
 .testimonials-image {
     border: 1px solid rgba(0, 0, 0, 0.2);
     width: 335px;

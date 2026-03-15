@@ -1,26 +1,30 @@
-/* ================================================
-   ABOUT SECTION  –  MOBILE BASE (≤ 767px)
-   ================================================ */
-
 .about {
   padding-top: 56px;
   padding-bottom: 56px;
+  @media (min-width: 768px) {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    min-width: unset;
+  }
 }
 
 .about-container {
   display: flex;
   flex-direction: column;
-  row-gap: 32px;
+  gap: 32px;
+  @media (min-width: 1440px) {
+    flex-direction: row;
+    align-items: center;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
 }
 
-/* ── Media (image side) ── */
-
-.about-image {
-  display: block;
-  object-fit: cover; 
+.about-media {
+  @media (min-width: 1440px) {
+    flex-shrink: 0;
+  }
 }
-
-/* ── Content (text side) ── */
 
 .about-content {
   display: flex;
@@ -29,16 +33,21 @@
 }
 
 .about-title {
-  font-family: "Sora", sans-serif;
+  font-family: 'Sora', sans-serif;
   font-size: 36px;
   line-height: 1.2;
+
+  @media (min-width: 768px) {
+    letter-spacing: -0.01em;
+  }
+  @media (min-width: 1440px) {
+    font-size: 48px;
+  }
 }
 
 .about-text {
   font-size: 18px;
 }
-
-/* ── Feature list ── */
 
 .about-list {
   display: flex;
@@ -51,6 +60,7 @@
   font-weight: 700;
   display: flex;
   column-gap: 8px;
+  align-items: center;
 }
 
 .about-item:nth-child(1):before {
@@ -61,7 +71,7 @@
 }
 
 .about-item:nth-child(2):before {
- content: url('/images/about-us/heart.svg');
+  content: url('/images/about-us/heart.svg');
   display: block;
   width: 24px;
   height: 24px;
@@ -72,68 +82,4 @@
   display: block;
   width: 24px;
   height: 24px;
-}
-
-/* ================================================
-   ABOUT SECTION  –  TABLET (≥ 768px)
-   ================================================ */
-
-@media (min-width: 768px) {
-  .about {
-      padding-top: 112px;
-    padding-bottom: 112px;
-    min-width: unset;
-  }
-
-  .about-container {
-    display: flex;
-    gap: 32px;
-  }
-
-  .about-image {
-   max-width: 100%;
-    height: auto;
-  }
-  
-  .about-title {
-    letter-spacing: -0.01em;
-  }
-}
-
-/* ================================================
-   ABOUT SECTION  –  DESKTOP (≥ 1440px)
-   ================================================ */
-
-@media (min-width: 1440px) {
-  .about {
-    padding-top: 112px;
-    padding-bottom: 112px;
-  }
-
-  .about-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 64px;
-    padding-right: 64px;
-  }
-
-  .about-media {
-    flex-shrink: 0;
-  }
-
-  .about-title {
-   font-size: 48px;
-   line-height: 1.2;
-   letter-spacing: -0.01em;
-  }
-
-  .about-text {
-    font-size: 18px;
-  }
-
-  .about-item {
-    font-weight: 700;
-font-size: 18px;
-  }
 }
