@@ -23,10 +23,8 @@
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: -0.01em;
-}
 
-@media screen and (min-width: 1440px) {
-  .contacts-title {
+  @media screen and (min-width: 1440px) {
     font-size: 48px;
   }
 }
@@ -35,18 +33,14 @@
   font-size: 18px;
 }
 
-
 .contacts-wrapper {
   display: flex;
   flex-direction: column;
   row-gap: 32px;
-}
 
-@media screen and (min-width: 1440px) {
-  .contacts-wrapper {
+  @media screen and (min-width: 1440px) {
     flex-direction: row-reverse;
     column-gap: 32px;
-    justify-content: space-between;
   }
 }
 
@@ -59,40 +53,29 @@
   flex-direction: column;
   row-gap: 24px;
 
-}
-
-@media screen and (min-width: 768px) {
-  .contacts-list {
+  @media screen and (min-width: 768px) {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
   }
-}
 
-@media screen and (min-width: 1440px) {
-  .contacts-list {
+  @media screen and (min-width: 1440px) {
     width: 640px;
     flex-wrap: wrap;
-    column-gap: 32px;
-    row-gap: 32px;
+    gap: 32px;
   }
-
 }
 
 .contacts-list-item {
   display: flex;
   flex-direction: column;
   row-gap: 16px;
-}
 
-@media screen and (min-width: 768px) {
-  .contacts-list-item {
+  @media screen and (min-width: 768px) {
     width: 218px;
   }
-}
 
-@media screen and (min-width: 1440px) {
-  .contacts-list-item {
+  @media screen and (min-width: 1440px) {
     width: 304px;
   }
 }
@@ -120,26 +103,21 @@
 }
 
 .contacts-order-form {
-  max-width: 640px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 24px;
-}
 
-@media screen and (min-width: 768px) {
-  .contacts-order-form {
-    max-width: 704px;
+  @media screen and (min-width: 768px) {
+    width: 100%;
   }
-}
 
-@media screen and (min-width: 1440px) {
-  .contacts-order-form {
+  @media screen and (min-width: 1440px) {
     width: 640px;
   }
 }
 
 .order-form-label {
- position: relative;
   display: flex;
   flex-direction: column;
   row-gap: 8px;
@@ -162,9 +140,6 @@
 
 .input-error {
   display: none;
-  position: absolute;
-  left: 0;
-  bottom: -26px;
   color: rgb(140, 0, 0);
   font-size: 12px;
 }
@@ -207,16 +182,12 @@
   background-color: rgb(204, 193, 110);
   border: 1px solid rgb(204, 193, 110);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-@media screen and (min-width: 768px) {
-  .contacts-send-btn {
+  @media screen and (min-width: 768px) {
     width: 249px;
   }
-}
 
-@media screen and (min-width: 1440px) {
-  .contacts-send-btn {
+  @media screen and (min-width: 1440px) {
     width: 192px;
   }
 }
@@ -225,6 +196,7 @@
 .contacts-send-btn:focus {
   background-color: transparent;
 }
+
 .contacts-send-btn:active {
   box-shadow: inset 0 0 8px 0 rgba(0, 0, 0, 0.32);
 }
