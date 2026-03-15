@@ -25,6 +25,10 @@
   letter-spacing: -0.01em;
   text-align: center;
   color: #000;
+
+@media (min-width: 1440px) {
+      font-size: 48px;
+    }
 }
 
 .gallery-paragraph {

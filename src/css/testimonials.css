@@ -1,3 +1,6 @@
+.testimonials-section {
+    padding: 64px 0;
+}
 .testimonials-container {
     display: flex;
     flex-direction: column;
@@ -34,11 +37,9 @@
   font-size: 18px;
 }
 .testimonials-text-icons {
-    @media screen and (min-width: 768px) {
-        display: flex;
-        flex-direction: column;
-        gap: 24px;
-    }
+    display: flex;
+    flex-direction: column;
+    gap: 24px;    
 }
 .testimonials-feedback-name {
   font-weight: 600;
@@ -54,12 +55,12 @@
     background-color: rgb(242, 242, 242);
 
     @media screen and (min-width: 768px) {
-        max-width: 250px;
+        width: 250px;
         height: 260px;
         justify-content: space-between;
     }
     @media screen and (min-width: 1440px) {
-        min-width: 640px;
+        width: 640px;
     }
 }
 .testimonials-list {
