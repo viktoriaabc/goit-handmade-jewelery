@@ -13,14 +13,7 @@
   flex-direction: column;
   row-gap: 24px;
 }
-/* 
-@media screen and (min-width: 768px) {
-    
-  }
-  
-@media screen and (min-width: px) {
-    
-  } */
+
 .contacts-subtitle {
   font-weight: 600;
 }
@@ -85,6 +78,7 @@
   }
 
 }
+
 .contacts-list-item {
   display: flex;
   flex-direction: column;
